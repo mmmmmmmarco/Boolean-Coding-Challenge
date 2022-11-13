@@ -1,0 +1,95 @@
+
+/* Immagine di sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size:cover;
+}
+
+
+/* Shape Trasparenza */
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 700px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+
+/* logo e Titolo */
+header > img{
+  width: 30%;
+  height:30%;
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+}
+
+h2{
+  color: lime;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+
+/*  Tasti Navigazione */
+nav{
+  background-color: lime;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Main Sito */
+main > section{
+  display: block;
+  padding-left: 25px;
+}
+
+/* Simbolo Freccia */
+section > p::before{
+  content:"\21A6";
+}
+
+/* Stile Testo */
+section >p,span,h4{
+  color: white;
+  margin:0;
+}
+main h4{
+  display: inline-block;
+  color:white;
+  font-family: sans-serif;
+  margin-top:20px;
+}
+
+
+/* Stato Carica */
+
+.batteria1{
+  height: 20px;
+  width: 300px;
+  background-color:rgba(245,180,83,255);
+  border-radius: 5px;
+}
+
+.batteria2{
+  height: 20px;
+  width: 500px;
+  background-color: lime;
+  border-radius: 5px;
+}
+
+.batteria3{
+  height: 20px;
+  width: 100px;
+  background-color:rgba(190,65,65,255);
+  border-radius: 5px;
+}
